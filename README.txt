@@ -1,8 +1,8 @@
 Author: Liam Lowndes
-Student ID: 101041818
 Date: April 15, 2023
 
 Video Demo: https://youtu.be/esf6RL5KTf0
+Google Drive link to download the model yourself: https://drive.google.com/drive/folders/1lMM7q5PDZZpZmLHnfnhAtq0EQ1-Duqwg?usp=sharing
 
 NOTE:   There are two test sets you can test the trained model on:
         1) captcha-test.csv and captcha-test-answers.txt  
@@ -16,14 +16,11 @@ NOTE:   There are two test sets you can test the trained model on:
         pathToCsv = "./csv/captcha-test-outside.csv"
         pathToAns = "./answers/captcha-test-outside-answers.txt"
 
-In this folder you will find 4 folders and 5 additional files, there contents are:
+In this folder you will find 2 folders and 4 additional files, there contents are:
 
 answers: A folder that contains three text files which are the answer keys to their respective csv files
 captcha-samples: A folder of some images to show an example of what my model was trained on
-csv:    A folder of the three csv files, where each row represents one captcha. Each value is a pixel with a value between 0 and 1
-        representing how dark that pixel shows up in a greyscale image.
 
-captcha-cracker.h5: The trained neural network model
 captchaClassifier.py: The file used to train the neural network model
 captchaTest.py The file used to test the neural network model
 Lowndes_Liam_Final.pdf: My report
